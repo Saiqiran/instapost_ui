@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Instapost :: where world connects</title>
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet" />
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <img src="images/logo.png" alt="Logo" id="logo" />
+    </div>
+    <div id="content">
+        <div id="login_box">
+            <h1>Signup</h1>
+            <div id="error_summary">
+                Please enter valide details
+            </div>
+            <form action="validate_user.html" method="post">
+                <div class="input_box"><input type="text" name="username" placeholder="name" id="name" onkeyup="validate_signup_button_enable()"  /></div>
+                <div class="input_box"><input type="password" name="password" placeholder="enter password" id="password" onkeyup="validate_signup_button_enable()" /></div>
+                <div class="input_box"><input type="password" name="password" placeholder="confirm password" id="confirm_password" onkeyup="validate_signup_button_enable()" /></div>
+                <div class="input_box"><input type="text" name="number"  placeholder="phone number" id="number" pattern="[0-9]+" onkeyup="validate_signup_button_enable()" /></div>
+                <div class="input_box"><input type="submit" value="signup" onclick="validate_login()" id="signup_button"  disabled /></div>
+            </form>
+            
+        </div>>
+    </div>
+</body>
+
+</html>

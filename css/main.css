@@ -1,0 +1,291 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #D40000;
+}
+
+#header {
+    height: 60px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+
+
+#logo {
+    width: 160px;
+}
+
+
+#content {}
+
+#login_box {
+    width: 350px;
+    min-height: 300px;
+    margin: 15px auto;
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+#login_box h1 {
+    margin-bottom: 20px;
+}
+
+
+#login_box .input_box {
+    margin-bottom: 15px;
+}
+
+#login_box .input_box input[type="text"],
+#login_box .input_box input[type="password"] {
+    padding: 8px 10px;
+    width: 180px;
+    border: 1px solid #bbb;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+#login_box .input_box input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #D40000;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    width: 200px;
+    border-radius: 5px;
+}
+
+#login_box .input_box input[type="signup"] {
+    padding: 10px 20px;
+    background-color: #635c5c;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    width: 225px;
+    border-radius: 5px;
+    margin-top: 15px
+}
+
+
+#divider {
+    border-top: 1px solid #ccc;
+    position: relative;
+    margin: 30px auto;
+    width: 200px;
+}
+
+#divider span {
+    position: absolute;
+    background-color: #FFF;
+    top: -20px;
+    left: 80px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #888;
+}
+
+.singup_box {
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.user_acc_col {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-items: left;
+    flex-direction: column;
+
+}
+
+.profile_manu {
+    padding: 0px;
+}
+
+.profile_manu,
+.notification_bar {
+    width: 25%;
+}
+
+.post_bar {
+    width: 50%;
+}
+.post_cointainer{
+    display: flex;
+    flex-direction: row;
+}
+
+#profile_pic {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+}
+
+.profile_pix_box {
+    padding: 20px;
+    border-bottom: 1px solid #aaa;
+    
+    text-align: center;
+}
+
+.user_name {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.profile_nav{
+    padding: 20px;
+}
+
+.profile_nav ul{
+    list-style: none;
+}
+
+.profile_nav ul li{
+    padding: 8px 0px;
+    font-weight: bold ;
+}
+
+.profile_nav .fas{
+    color: #D40000;
+}
+
+
+.stories{
+    border-bottom: 1px solid #ccc;
+    margin: 0px -20px;
+}
+
+
+.insta_user_post_pic_box{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.insta_user_post_reaction{
+    font-size: 16px;
+    color: #D40000;
+
+}
+
+.story{
+    width: 120px;
+    height: 85px;
+    text-align: center;
+    float: left;
+}
+
+.story .story_pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.insta_user_post{
+    margin:20px 0px 40px 75px;
+    
+}
+
+/*
+.story_pic,.story_pic2,.story_pic3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 2px 2px;
+    margin-right: 5px ;
+    background-color: #D40000;
+}
+*/
+
+.dp{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+span.profile_name{
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+.post{
+    width:475px;
+    height: 350px;
+    border-radius: 10px; 
+}
+.suggestions{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+
+}
+.notification_bar{
+    border: none;
+  
+}
+.suggestions{
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.username{
+    font-family: 'Roboto';
+}
+.profile_pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px 5px 10px 0px;
+    vertical-align: middle;
+}
+ .btn{
+    width: 40px;
+    height: 20px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #cbf8f2;
+    border: none;
+    cursor: pointer;
+    
+ }
+.help{
+    font-size: xx-small;
+    font-family: cursive;
+}
+
+#error_summary{
+    margin-bottom: 20px;
+    background-color: rgb(248, 93, 93);
+    color:#fff;
+    display: none;
+}
+
+
+.input_error_border{
+    border: 2px solid #D40000 !important;
+}
+
+input:disabled{
+    opacity:0.5 !important;
+}
